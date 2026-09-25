@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;      /* تغطي الشاشة بالكامل */
+    background-position: center; /* تثبت بالمنتصف */
+    background-repeat: no-repeat;
+}
+
+.a {
+    width: 900px;
+    font-size: 50px;
+    color: hsl(233, 52%, 9%);
+    margin-left: 350px;
+    margin-top: -18300px;
+    font-family: "Aref Ruqaa", serif;
+}
+.open {
+width: 850px;
+margin-left: 75px;
+margin-top: -3000px;
+}
+.music {
+width: 140px;
+margin-left: -217px;
+margin-top: -280px;
+}
+.darf {
+    width: 188px;
+    margin-left: -162px;
+    margin-top: -225px;
+}
+
+.bocket {
+    width: 130px;
+    margin-left: -250px;
+    margin-top: -230px;
+}
+.gold {
+    width: 40px;
+    margin-left: 5px;
+    margin-top: -170px;
+}
+
+
+.poster {
+    block-size: 450px;
+    margin-left: -165px;
+    margin-top: 600px;
+}
+.b {
+  font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: red;
+    line-height: 35px;
+    margin-top: 690px;
+    margin-left: 10px;
+    width: 1000px;
+    font-size: 12px;
+}
+.flo {
+    width: 270px;
+    margin-top: 980px;
+    margin-left: -280px;
+}
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1200px;
+  width: 10px;
+  margin-left: 240px;
+  margin-right: 10px;
+}
+.time-box {
+  color: hsl(234, 49%, 24%);
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 45px;
+}
+.time-box span {
+    margin-top: -45px;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+.time-box p {
+  font-size: 13px;
+  margin-top: 1px;
+  margin-left: 5px;
+  color: hsl(234, 49%, 24%);
+}
+
+
+.date {
+    width: 100px;
+    margin-top: 1500px;
+    margin-right: 500px;
+    margin-left: -200px;
+}
+.golden {
+width: 120px;
+margin-top: 1640px;
+margin-left: -40px;
+filter: drop-shadow(0px 0px 7px hsl(38, 77%, 28%));
+}
+.hdor {
+    background-color: hsl(233, 62%, 16%);
+    margin-top: 1990px;
+    margin-bottom: 0px;
+    margin-right: 500px;
+    margin-left: -1200px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 230px;
+}
+.name {
+     HEIGHT: 20PX;
+    border-radius: 5px;
+    border: none;
+margin-top: 2000px;
+width: 160px;
+margin-left: -500px;
+text-align: right;
+font-size: 12px;
+font-family: "Aref Ruqaa", serif;
+color: hsl(38, 78%, 33%);
+}
+.name:hover {
+    background-color: hsl(0, 2%, 90%);
+}
+.name-tow:hover {
+    background-color: hsl(0, 2%, 90%);
+}
+.name-tow {
+    HEIGHT: 20PX;
+    border-radius: 5px;
+    border: none;
+margin-top: 2060px;
+width: 160px;
+font-size: 12px;
+margin-left: -135px;
+text-align: right;
+font-family: "Aref Ruqaa", serif;
+color: hsl(38, 78%, 33%);
+}
+.gh {
+    color: black;
+    font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  margin-left: -33px;
+margin-top: 2160px;
+margin-bottom: 0px;
+}
+.c {
+    border: none;
+    color: white;
+    background-color: hsl(233, 62%, 16%);
+    box-shadow: 1px 1px 2px hsl(38, 78%, 33%);
+    font-size: 9px;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  margin-left: -75px;
+margin-top: 2240px;
+}
+
+.attendance-container {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.radio-option input[type="radio"] {
+    display: none;
+}
+.option input[type="radio"] {
+    display: none;
+}
+.radio-option {
+    margin-top: -7px;
+    height: 1px;
+width: 130px;
+border-radius: 5px;
+text-align: right;
+margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    background-color:hsl(234, 49%, 24%);
+color: white;
+font-size: 12px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.option {
+    margin-top: 20px;
+    height: 1px;
+width: 130px;
+border-radius: 5px;
+text-align: right;
+margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    background-color:hsl(234, 49%, 24%);
+color: white;
+font-size: 12px;
+margin-top: 5px;
+padding-bottom: 15px;
+}
+.radio-option:has(input[type="radio"]:checked) {
+background-color:hsl(38, 78%, 33%);
+color: white;
+border-color:blue;
+}
+.option:has(input[type="radio"]:checked) {
+background-color:hsl(38, 78%, 33%);
+color: white;
+border-color:blue;
+}
+
+button {
+border: none;
+border-radius: 3px;
+margin-left: -30px;
+margin-top: 2350px;
+height: 30px;
+width: 85px;
+font-size: 15px;
+background-color:hsl(38, 78%, 33%);
+color: white;
+box-shadow: 0px 1px 15px hsl(38, 78%, 33%);
+}
+button:active {
+    box-shadow: none;
+background-color:hsl(38, 77%, 28%);
+}
+
+
+
+.door {
+    display: block;
+    margin-left: -155px;
+    margin-top: 3500px;
+    filter: drop-shadow(0px 0px 13px #9c6c2c);
+    cursor: pointer;
+}
+
+.door:hover {
+    filter: drop-shadow(0px 0px 5px #9c6c2c);
+    transition: 0.5s;
+}
+
+.door:active {
+    filter: none;
+}
